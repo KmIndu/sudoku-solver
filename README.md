@@ -15,9 +15,15 @@ And if none of the number (1 to 9) leads to a solution, return false and print n
 Functions used:
 
 FindUnassignedLocation(): This function finds an entry in grid that is still unassigned.
+
 SolveSudoku(): Takes a partially filled-in grid and attempts to assign values to all unassigned locations in such a way to meet the requirements for Sudoku solution.
+
 UsedInRow():Returns a boolean which indicates whether an assigned entry in the specified row matches the given number.
+
 UsedInCol(): Returns a boolean which indicates whether an assigned entry in the specified column matches the given number.
+
 UsedInBox(): Returns a boolean which indicates whether an assigned entry within the specified 3x3 box matches the given number.
+
 isSafe(): Checks whether it will be legal to assign num to the given row, col
+
 printGrid(): A utility function to print grid.
